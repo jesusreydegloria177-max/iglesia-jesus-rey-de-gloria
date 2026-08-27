@@ -30,7 +30,7 @@ También puedes abrir `index.html` directamente con doble clic (sin XAMPP), casi
 
 ## Vista previa al compartir
 
-La portada incluye metadatos Open Graph para WhatsApp y otras redes. La imagen utilizada es `img/compartir-whatsapp.png` y las URL públicas apuntan a:
+La portada incluye metadatos Open Graph para WhatsApp y otras redes. La imagen utilizada es `img/logo-invasion-amor-dios.jpeg` y las URL públicas apuntan a:
 
 `https://jesusreydegloria177-max.github.io/iglesia-jesus-rey-de-gloria/`
 
