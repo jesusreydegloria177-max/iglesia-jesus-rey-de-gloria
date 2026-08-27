@@ -28,6 +28,20 @@ También puedes abrir `index.html` directamente con doble clic (sin XAMPP), casi
 - **Formulario**: `js/main.js` tiene una simulación local. Para que envíe correos de verdad necesitas conectarlo a un script PHP, o a un servicio como Formspree/Web3Forms (no requieren backend propio).
 - **Versículos**: la lista está en `js/main.js` dentro del array `verses`.
 
+## Vista previa al compartir
+
+La portada incluye metadatos Open Graph para WhatsApp y otras redes. La imagen utilizada es `img/compartir-whatsapp.png` y las URL públicas apuntan a:
+
+`https://jesusreydegloria177-max.github.io/iglesia-jesus-rey-de-gloria/`
+
+Cada cambio de dominio o ruta requiere actualizar `canonical`, `og:url`, `og:image` y `twitter:image` en `index.html`.
+
+## Registro del formulario
+
+El formulario todavía funciona como demostración local. La opción recomendada es conectarlo a una hoja privada de Google Sheets mediante una implementación de Google Apps Script. La hoja puede usar estas columnas:
+
+`Fecha | Nombre | Correo o WhatsApp | Petición | Estado | Observaciones`
+
 ## Publicarlo en GitHub Pages
 1. Crea un repositorio nuevo en GitHub (por ejemplo `jesus-rey-de-gloria`).
 2. Sube el contenido de esta carpeta a la raíz del repo (no la carpeta `iglesia-web` en sí, sino lo que hay adentro).
