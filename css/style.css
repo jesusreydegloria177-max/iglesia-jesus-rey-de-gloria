@@ -430,11 +430,12 @@ button{ font-family: inherit; cursor: pointer; }
 }
 .weekly-events-grid{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
   margin-top: 26px;
 }
 .weekly-event-card{
+  grid-column: span 2;
   min-width: 0;
   background: var(--paper);
   border: 1px solid var(--line);
@@ -442,6 +443,7 @@ button{ font-family: inherit; cursor: pointer; }
   overflow: hidden;
   transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
 }
+.weekly-event-card:nth-last-child(-n + 2){ grid-column: span 3; }
 .weekly-event-card:hover{ transform: translateY(-4px); box-shadow: var(--shadow-soft); border-color: var(--gold); }
 .weekly-event-poster{
   display: grid;
@@ -913,6 +915,8 @@ button{ font-family: inherit; cursor: pointer; }
   }
   .cards-grid{ grid-template-columns: repeat(2, 1fr); }
   .weekly-events-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .weekly-event-card,
+  .weekly-event-card:nth-last-child(-n + 2){ grid-column: auto; }
   .about-stats{ flex-wrap: wrap; }
   .stat-card{ flex: 1 1 50%; }
   .stat-card:nth-child(3){ border-left: none; }
