@@ -8,7 +8,7 @@ iglesia-web/
 ├── index.html      → toda la página (incluye galería, oración y contacto)
 ├── css/style.css   → estilos (paleta, tipografía, animaciones)
 ├── js/main.js      → menú móvil, scroll reveal, contador, versículo del día, carrusel de testimonios, formulario
-└── img/            → fotografías foto1.jpeg a foto4.jpeg
+└── img/            → fotografías, logo de la iglesia e imágenes sociales
 ```
 
 ## Probarlo en XAMPP
@@ -21,6 +21,7 @@ También puedes abrir `index.html` directamente con doble clic (sin XAMPP), casi
 ## Qué personalizar primero
 - **Contacto actual**: `jesusreydegloria177@gmail.com`, WhatsApp `+51 922 406 293` y `+51 991 391 578`.
 - **Dirección actual**: Jirón Lorenzo Iglesia Mz. K Lote 6, Los Viñedos - Surco.
+- **Logo actual**: `img/logo-jesus-rey-gloria.png`, utilizado en encabezado, portada, favicon y pie de página.
 - **Textos**: nombre de la iglesia, versículo del hero, dirección, teléfono, correo, horarios de culto (`index.html`).
 - **Colores**: variables al principio de `css/style.css` (`:root { --ink, --gold, --coral, --teal, --mist }`).
 - **Logo**: hoy es un círculo con degradé (`.brand-mark`); puedes reemplazarlo por un `<img>` con tu logo en `img/`.

@@ -154,39 +154,14 @@ button{ font-family: inherit; cursor: pointer; }
 .brand{
   display: flex;
   align-items: center;
-  gap: 12px;
 }
-.brand-mark{
-  width: 32px; height: 24px;
-  flex-shrink: 0;
-  color: var(--gold);
+.brand-logo{
+  display: block;
+  width: auto;
+  object-fit: contain;
 }
-.brand-mark svg{
-  width: 100%; height: 100%;
-  fill: currentColor;
-  stroke: var(--ink);
-  stroke-width: 1.4;
-  stroke-linejoin: round;
-}
-.brand-text{
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
-}
-.brand-eyebrow-text{
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--royal);
-}
-.brand-title-text{
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 600;
-  font-size: 19px;
-  color: var(--ink);
+.brand-logo-header{
+  height: 70px;
 }
 .main-nav{
   display: flex;
@@ -265,40 +240,14 @@ button{ font-family: inherit; cursor: pointer; }
 @keyframes raysSpin{ to{ transform: translate(-50%, -18%) rotate(360deg); } }
 
 .hero-inner{ position: relative; z-index: 2; max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; }
-.hero-crown{
-  width: 56px; height: 42px;
-  color: var(--gold);
-  margin-bottom: 22px;
+.hero-logo-heading{
+  margin: 0 0 24px;
+  line-height: 0;
 }
-.hero-crown svg{
-  width: 100%; height: 100%;
-  fill: currentColor;
-  stroke: var(--ink);
-  stroke-width: 1.2;
-  stroke-linejoin: round;
-}
-.hero-eyebrow{ text-align: center; }
-.hero-wordmark{ margin: 0 0 22px; }
-.hero-name-1{
+.hero-brand-logo{
   display: block;
-  font-family: var(--font-display);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-size: clamp(42px, 8vw, 76px);
-  line-height: 1;
-  color: var(--ink);
-}
-.hero-name-2{
-  display: block;
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: clamp(17px, 2.6vw, 24px);
-  color: var(--royal);
-  margin-top: 8px;
+  width: clamp(210px, 28vw, 280px);
+  height: auto;
 }
 .hero-sub{
   font-size: 18px;
@@ -739,7 +688,7 @@ button{ font-family: inherit; cursor: pointer; }
   grid-template-columns: 1.3fr 1fr 1fr;
   gap: 40px;
 }
-.footer-brand .brand-title-text{ font-size: 18px; }
+.brand-logo-footer{ height: 112px; }
 .footer-brand-col{ max-width: 300px; }
 .footer-tagline{
   font-size: 14.5px;
@@ -870,6 +819,10 @@ button{ font-family: inherit; cursor: pointer; }
 }
 
 @media (max-width: 760px){
+  .site-header{ padding: 10px 0; }
+  .site-header.is-scrolled{ padding: 7px 0; }
+  .brand-logo-header{ height: 58px; }
+  .hero-brand-logo{ width: min(235px, 76vw); }
   .hero-inner{ width: 100%; }
   .hero-sub{ max-width: 100%; font-size: 16px; }
   .hero-actions{ width: 100%; flex-direction: column; }
