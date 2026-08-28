@@ -21,7 +21,7 @@ También puedes abrir `index.html` directamente con doble clic (sin XAMPP), casi
 ## Qué personalizar primero
 - **Contacto actual**: `jesusreydegloria177@gmail.com`, WhatsApp `+51 922 406 293` y `+51 991 391 578`.
 - **Dirección actual**: Jirón Lorenzo Iglesia Mz. K Lote 6, Los Viñedos - Surco.
-- **Logo actual**: `img/logo-mejorado.jpeg`, utilizado en encabezado, portada, favicon y pie de página.
+- **Logo actual**: `img/logo-mejorado-transparente.png`, utilizado en encabezado, portada, favicon y pie de página. Conserva transparencia real para integrarse sobre cualquier fondo.
 - **Textos**: nombre de la iglesia, versículo del hero, dirección, teléfono, correo, horarios de culto (`index.html`).
 - **Colores**: variables al principio de `css/style.css` (`:root { --ink, --gold, --coral, --teal, --mist }`).
 - **Archivos de identidad**: coloca futuras versiones del logo dentro de `img/` y actualiza sus referencias en `index.html`.
