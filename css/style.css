@@ -161,7 +161,7 @@ button{ font-family: inherit; cursor: pointer; }
   object-fit: contain;
 }
 .brand-logo-header{
-  height: 70px;
+  height: 78px;
 }
 .main-nav{
   display: flex;
@@ -246,7 +246,7 @@ button{ font-family: inherit; cursor: pointer; }
 }
 .hero-brand-logo{
   display: block;
-  width: clamp(210px, 28vw, 280px);
+  width: clamp(280px, 34vw, 380px);
   height: auto;
 }
 .hero-sub{
@@ -791,7 +791,7 @@ button{ font-family: inherit; cursor: pointer; }
   grid-template-columns: 1.3fr 1fr 1fr;
   gap: 40px;
 }
-.brand-logo-footer{ height: 112px; }
+.brand-logo-footer{ height: 138px; }
 .footer-brand-col{ max-width: 300px; }
 .footer-tagline{
   font-size: 14.5px;
@@ -924,8 +924,8 @@ button{ font-family: inherit; cursor: pointer; }
 @media (max-width: 760px){
   .site-header{ padding: 10px 0; }
   .site-header.is-scrolled{ padding: 7px 0; }
-  .brand-logo-header{ height: 58px; }
-  .hero-brand-logo{ width: min(235px, 76vw); }
+  .brand-logo-header{ height: 66px; }
+  .hero-brand-logo{ width: min(320px, 88vw); }
   .hero-inner{ width: 100%; }
   .hero-sub{ max-width: 100%; font-size: 16px; }
   .hero-actions{ width: 100%; flex-direction: column; }

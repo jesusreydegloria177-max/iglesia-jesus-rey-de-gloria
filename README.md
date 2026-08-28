@@ -21,10 +21,10 @@ También puedes abrir `index.html` directamente con doble clic (sin XAMPP), casi
 ## Qué personalizar primero
 - **Contacto actual**: `jesusreydegloria177@gmail.com`, WhatsApp `+51 922 406 293` y `+51 991 391 578`.
 - **Dirección actual**: Jirón Lorenzo Iglesia Mz. K Lote 6, Los Viñedos - Surco.
-- **Logo actual**: `img/logo-jesus-rey-gloria.png`, utilizado en encabezado, portada, favicon y pie de página.
+- **Logo actual**: `img/logo-mejorado.jpeg`, utilizado en encabezado, portada, favicon y pie de página.
 - **Textos**: nombre de la iglesia, versículo del hero, dirección, teléfono, correo, horarios de culto (`index.html`).
 - **Colores**: variables al principio de `css/style.css` (`:root { --ink, --gold, --coral, --teal, --mist }`).
-- **Logo**: hoy es un círculo con degradé (`.brand-mark`); puedes reemplazarlo por un `<img>` con tu logo en `img/`.
+- **Archivos de identidad**: coloca futuras versiones del logo dentro de `img/` y actualiza sus referencias en `index.html`.
 - **Mapa**: cambia el `src` del `<iframe>` en la sección de contacto por la ubicación real (Google Maps → Compartir → Insertar mapa).
 - **Formulario**: `js/main.js` tiene una simulación local. Para que envíe correos de verdad necesitas conectarlo a un script PHP, o a un servicio como Formspree/Web3Forms (no requieren backend propio).
 - **Versículos**: la lista está en `js/main.js` dentro del array `verses`.
