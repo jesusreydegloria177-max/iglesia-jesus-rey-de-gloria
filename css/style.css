@@ -482,7 +482,7 @@ button{ font-family: inherit; cursor: pointer; }
 }
 .sunday-schedule{
   display: grid;
-  grid-template-columns: 1.25fr 1fr 1fr;
+  grid-template-columns: 1.1fr 1.9fr;
   align-items: stretch;
   margin-top: 26px;
   border: 1px solid var(--line);
@@ -958,8 +958,6 @@ button{ font-family: inherit; cursor: pointer; }
   .prayer-schedule strong{ grid-column: 2; white-space: normal; }
   .weekly-events-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sunday-schedule{ grid-template-columns: 1fr 1fr; }
-  .sunday-schedule-intro{ grid-column: 1 / -1; }
-  .sunday-service:first-of-type{ border-left: none; }
   .countdown-grid{ gap: 14px; }
   .verse-inner{ padding: 40px 26px; }
   .testimonial-slide{ padding: 32px 24px; }

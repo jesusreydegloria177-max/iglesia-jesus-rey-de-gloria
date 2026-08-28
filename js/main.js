@@ -85,11 +85,11 @@ document.addEventListener('DOMContentLoaded', () => {
     statEls.forEach(el => statObserver.observe(el));
   }
 
-  /* ---------- Contador para el próximo culto (domingo 09:00) ---------- */
-  function nextSunday9am() {
+  /* ---------- Contador para el próximo servicio (domingo 10:00) ---------- */
+  function nextSunday10am() {
     const now = new Date();
     const target = new Date(now);
-    target.setHours(9, 0, 0, 0);
+    target.setHours(10, 0, 0, 0);
     const day = now.getDay(); // 0 = domingo
     let daysUntilSunday = (7 - day) % 7;
     if (day === 0 && now < target) daysUntilSunday = 0;
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updateCountdown() {
-    const target = nextSunday9am();
+    const target = nextSunday10am();
     const now = new Date();
     let diff = Math.max(0, target - now);
 
